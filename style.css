@@ -64,6 +64,7 @@ body{
     top: 25px;
     z-index: 10;
     transform: rotate(40deg);
+    transition: 0.2s;
 }
 .dropdown::after{
     content: '';
@@ -75,4 +76,11 @@ body{
     top: 25px;
     z-index: 10;
     transform: rotate(-40deg);
+    transition: 0.2s;
+}
+.dropdown.active::before{
+    left: 20px;
+}
+.dropdown.active::after{
+    left: 12px;
 }
