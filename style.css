@@ -30,3 +30,22 @@ body{
     font-size: 15px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.2);
 }
+.option{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+}
+.option div{
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.option div:hover{
+    background: darkcyan;
+    color: #fff;
+}
